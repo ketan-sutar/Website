@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+#main{
+    width: 100%;
+}
+
+#nav{
+    padding: 2.5vw 10vw;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+#nleft{
+    display: flex;
+    gap: 30px;    
+}
+
+#nav #centertag{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 18px;
+    transform: translate(-50%,-50%);
+
+}
+#nav a{
+    display: inline-block;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+   
+}
+
+#hero
+{
+    width: 100%;
+    /* background-color: green; */
+    margin-top: 14vw;
+    padding: 0vw 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#sustain{
+    width: 10vw;
+}
+
+#sustain p{
+    font-weight: 800;
+    font-size: 11px;
+    opacity: 0.7;
+    line-height: 1;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+#sustain #susimgwrapper{
+    width: 100%;
+    height: 15vw;
+    position: relative;
+    overflow: hidden;
+    /* background-color: red; */
+}
+
+#susimgwrapper img{
+    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+#ephermeral{
+    width: 30vw;
+    min-height: 42vw;
+    position: relative;
+    /* background-color: pink; */
+
+}
+#ephermeral #headings{
+    position: absolute;
+    top: -20%;
+    left: -22%;
+}
+#ephermeral h1{
+    font-size: 6vw;
+    line-height: 1;
+
+    letter-spacing: -.4vw;
+    font-weight: 400;
+}
+
+#ephermeral img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#ephermeral p{
+   
+    font-size: 1.2vw;
+    width: 65%;
+    
+    font-weight: 600;
+    letter-spacing: -.05vw;
+
+}
+
+#visit{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#circlev{
+    width: 2.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5vw;
+    /* background-color: greenyellow; */
+    border-radius: 50%;
+    border: 1px solid #5e5e5e;
+}
+
+#circlev i{
+    color: #5e5e5e;
+    font-size: 1.2vw;
+}
+#visit h3{
+    font-size: 1.2vw;
+    color: #5e5e5e;
+    font-weight: 400;
+}
+#motive{
+    padding: 7vw 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#motive h3{
+    font-size: 1vw;
+}
+
+#motive p{
+    width: 80%;
+    font-size: 1.5vw;
+    text-align: right;
+    line-height: 1.5;
+}
+#motive span{
+    display: inline-block;
+    margin: 1px 10px;
+    background-color: red;
+    border-radius: 100px;
+    margin-bottom: -12.5px;
+}
+
+#onespan{
+    width: 80px;
+    height: 40px;
+    background-image: url(https://images.unsplash.com/reserve/Af0sF2OS5S5gatqrKzVP_Silhoutte.jpg?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+#twospan{
+    width: 120px;
+    height: 40px;
+    background-image: url(https://images.unsplash.com/photo-1511405889574-b01de1da5441?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: 0% 25%;
+
+}
+#threespan{
+    width: 80px;
+    height: 40px;
+    background-image: url(https://images.unsplash.com/photo-1564020435666-f67ed5319a32?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+
+}
+
+#pictures{
+    padding: 3vw;
+    margin-top: 5vw;
+    padding-left: 14vw;
+    padding-right: 12vw;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#firstpic{
+    width: 18vw;
+}
+#firstpic #picimg{
+    width: 18vw;
+    height: 24vw;
+    margin-bottom: 1vw;
+    
+}
+
+#picimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#firstpic h1{
+    letter-spacing: -.1vw;
+    font-weight: 100;
+    font-size: 2vw;
+}
+#firstpic p, #secpic p{
+    font-size: 14px;
+    opacity: 0.8;
+    line-height: 1;
+    margin-top: 10px;
+}
+
+#secpic{
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+#secpic #picimg{
+    width: 100%;
+    height: 35vw;
+    margin-bottom: 1vw;
+    
+}
+
+
+#secpic h1{
+    letter-spacing: -.1vw;
+    font-weight: 100;
+    font-size: 2vw;
+}
+
+#secpic p{
+    width: 85%;
+    text-align: right;
+}
+
+#banner{
+    width: 100%;
+    margin-top: 8vw;
+    display: flex;
+    align-items: center;
+
+}
+#bimg{
+    width: 65%;
+    height: 80vh;
+}
+    
+
+#bimg img{
+    width: 100%;
+    height: 100%;
+    object-position: bottom;
+    object-fit: cover;
+
+}
+
+#btxt{
+    width: 35%;
+    padding: 0 3vw;
+
+}
+#btxt h1{
+    font-size: 2.8vw;
+    line-height: 1;
+    font-weight: 200;
+    letter-spacing: -.15vw;
+}
+
+#btxt p{
+    margin-top: 20px;
+    width: 70%;
+}
+
+#footer{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#footer video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    opacity: 0;
+    transform: translate(-50%, -50%) ;
+}
+
+#ftext{
+    position: relative;
+    z-index: 9999;
+    display: flex;
+    background-color: white;
+    padding: 1vw;
+    color: black;
+    flex-direction: column;
+    align-items: center;
+
+}
+#ftext h1{
+    color: black;
+    
+}
+
+#ftext button{
+    padding: .7vw 1.7vw;
+    font-size: 0.8vw;
+    letter-spacing: -.02vw;
+    font-weight: 700;
+    border: 1px solid #5e5e5e ;
+    border-radius: 150px;
+    background-color: #fff;
+    color: #6f6f6f;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
